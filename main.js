@@ -1,7 +1,6 @@
 import { serve } from "bun";
 import { database, storage } from './firebase.js'
 import { ref as dbRef, push, set, get, update } from 'firebase/database'
-//import { ref as storageRef, uploadBytes, getDownloadURL } from 'firebase/storage'
 
 const DDGS = require('./duckai4o.js');
 
